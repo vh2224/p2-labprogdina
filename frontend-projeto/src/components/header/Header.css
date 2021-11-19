@@ -1,0 +1,116 @@
+header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.header__logo {
+    flex: 1 1 auto;
+}
+
+.header__content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buscar {
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    flex: 3 1 auto;
+}
+
+.buscar__input {
+    border: 0 none;
+    width: 100%;
+    background: url('../../assets/img/header/buscar.svg') center right scroll no-repeat transparent;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    padding-right: 22px;
+    border-bottom: 1px solid lightgray;
+    transition: border 0.333s;
+}
+
+.buscar__input:hover, .buscar__input:active, .buscar__input:focus {
+    outline: 0;
+    border-bottom-color: lightgray;
+}
+
+.conta {
+    display: inline-flex;
+    justify-content: flex-end;
+    flex: 1 1 auto;
+    width: auto;
+    margin-top: 0;
+}
+
+.acessar-conta {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    background-color: transparent;
+    border-radius: unset;
+    width: auto;
+    border: 0 none;
+    cursor: pointer;
+}
+
+.imagem-conta {
+    padding-right: 0.5rem;
+}
+
+.conteudo-carrinho {
+    flex: 0 1 auto;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-left: 10px;
+    border-right: 1px solid #7a7a7a;
+}
+
+.carrinho {
+    background-color: transparent;
+    border: 0 none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon-carrinho {
+    padding-right: 0.3rem;
+}
+
+.quantidade-carrinho {
+    width: 16px;
+    height: 16px;
+    font-size: .65rem;
+    background-color: #2ec4b6;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+}
+
+.selecionar-idioma {
+    align-items: center;
+    justify-content: flex-end;
+    flex: 0 1 auto;
+    width: auto;
+    padding-left: 15px;
+    display: inline-flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.idiomas > a {
+    margin-right: 15px;
+}
