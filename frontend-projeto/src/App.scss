@@ -1,0 +1,10 @@
+// Vendor
+@import "../node_modules/slick-carousel/slick/slick.scss";
+
+// Base
+@import "./assets/scss/base/variables";
+@import "./assets/scss/base/slick-theme"; // Aqui mesmo?
+
+
+// Banner
+@import "./assets/scss/banner/banner";

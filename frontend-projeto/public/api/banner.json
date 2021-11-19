@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "imagem": "../image/Banner.png",
+        "titulo": "Nossa especialidade: experiência de compra."
+    },
+    {
+        "id": 2,
+        "imagem": "../image/Banner.png",
+        "titulo": "Nossa especialidade: experiência."
+    },
+    {
+        "id": 3,
+        "imagem": "../image/Banner.png",
+        "titulo": "Nossa especialidade"
+      },
+      {
+        "id": 4,
+        "imagem": "../image/Banner.png",
+        "titulo": "Nossa."
+      }
+  ]
