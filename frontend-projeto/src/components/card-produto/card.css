@@ -42,6 +42,10 @@
     padding: 5px 0;
 }
 
+.card__imagem > img {
+    width: 100%;
+}
+
 .comprar {
     display: flex;
     justify-content: center;
@@ -71,4 +75,26 @@
 .main-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+
+
+.card__preco-antigo > span {
+    text-decoration: line-through;
+    color:#7a7a7a;
+    font-size: 13.5px;
+    font-weight: 500;
+}
+
+.card__preco-antigo {
+    margin-bottom: -8px;
+}
+
+.card__parcelamento > span {
+    color:#7a7a7a;
+    font-size: 13.5px;
+    font-weight: 500;
+}
+
+.card__comprar {
+    display: flex;
 }
